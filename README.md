@@ -13,6 +13,6 @@ python3.11 train_password_strenght.py classes/weak_passwords.txt classes/medium_
 
 The weights will be stored in results directory after training.
 
-To test the model run:
+To test the model, run:
 
 python3.11 predict_password_strenght.py path_where_weight_stored "password" 
