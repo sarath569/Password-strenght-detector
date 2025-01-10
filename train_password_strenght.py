@@ -14,7 +14,7 @@ weak_password_list = [line.strip() for line in lines]
 weak_password_label=[0]*len(weak_password_list)
 
 f.close()
-# load strong password dataset
+# load medium password dataset
 f=open(sys.argv[2],"r")
 
 lines=f.readlines()
@@ -23,6 +23,7 @@ medium_password_label=[1]*len(medium_password_list)
 
 f.close()
 
+# load strong password dataset
 f=open(sys.argv[3],"r")
 
 lines=f.readlines()
